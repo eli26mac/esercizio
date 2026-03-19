@@ -816,21 +816,15 @@ ul.lista{
 @media screen and (max-width: 600px) {
  * { box-sizing: border-box;}
 
-  /* Questo crea un cuscinetto d'aria per TUTTO il contenuto del sito */
- header, footer {
-    padding-left: 20px !important;
-    padding-right: 20px !important;
-    box-sizing: border-box;
-  }
 
-  /* Assicuriamoci che i contenitori non superino mai la larghezza dello schermo */
-  main, .contenitore, .grid, .content, .paragrafo {
-    width: 100% !important;
-    max-width: 100% !important;
-    margin: 0 auto !important;
-    box-sizing: border-box !important; /* Fondamentale: include il padding nel calcolo della larghezza */
-  }
 
+    .navcontainer, .titolohome h1, .foto, .info h2, .grid, .content, .infotitle, .icons, .footercol, .gallery, .box, .halfcontent, .tit-viag, .iconsview, .titolohome, .cardgrande, .paragrafo, .fotogrande {
+    max-width: 100%; 
+    padding-left: 16px; 
+    padding-right: 16px;
+    margin: 0 auto ;
+    box-sizing: border-box ; 
+ }
  
   /*PAGINA HOME*/
   body{
