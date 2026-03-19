@@ -824,7 +824,8 @@ ul.lista{
   /*PAGINA HOME*/
   body{
     overflow-x: hidden;
-    
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   
