@@ -290,6 +290,7 @@ h2 {
   width: 560px;
   height: 160px;
   align-content: center;
+  text-align: start;
   
 }
 
@@ -818,7 +819,7 @@ ul.lista{
 
 
 
-    .navcontainer, .foto,  .grid, .info h2, .content, .icons, .footercol, .gallery, .box, .halfcontent, .tit-viag p, .iconsview,  .cardgrande, .paragrafo, .fotogrande {
+    .navcontainer, .foto,  .grid, .content, .icons, .footercol, .gallery, .box, .halfcontent, .tit-viag p, .iconsview,  .cardgrande, .paragrafo, .fotogrande {
     max-width: 100%; 
     padding-left: 20px; 
     padding-right: 20px;
@@ -843,12 +844,18 @@ ul.lista{
     }
 
     .headertop{
+     
       padding: 15px;
       border-bottom: 1px solid rgba(255,255,255,0.1);
     }
 
+    .headerbottom{
+      font-size: 4px;
+    }
+
     .logobox{
       margin-right: 0px;
+      
     }
 
     nav ul {
@@ -869,7 +876,7 @@ ul.lista{
         flex-direction: column; 
         gap: 20px;
         text-align: center;
-        padding: 20px 0px;
+        padding: 12px 0px;
     }
 
     .navgroup {
@@ -877,6 +884,13 @@ ul.lista{
         justify-content: center;
         width: 100%;
         gap: 48px;
+        font-size: 8px;
+        
+    }
+
+    .headerbottom{
+      width: 300px;
+       margin: 0 auto;
     }
 
    
@@ -948,16 +962,19 @@ ul.lista{
     text-align: center;
     height: 20px;
     font-weight: 400;
-        
-        
+    margin: 20px 0px 0px 20px  ;        
   }
 
   .info{
     align-items: center;
+    display: grid;
+    padding: 0;
   }
 
   .info h2{
     font-size: 20px;
+    align-content: center;
+    margin: 0px 20px;
     
   }
 
@@ -999,10 +1016,9 @@ ul.lista{
   }
 
   .piece p { 
-    width: 100%; 
-    height: auto; 
-    text-align: start; 
     font-size: 15px;
+    width: 300px;
+    margin: 0 auto;
   }
 
 
@@ -1016,6 +1032,9 @@ ul.lista{
  }
 
  .infotitle p {
+   margin: 0 auto;
+   max-width: 100%;             
+    width: 288px; 
     font-size: 15px;
  }
       
@@ -1062,7 +1081,7 @@ ul.lista{
   footer {
     flex-direction: column;
     padding-top: 32px;
-    padding-bottom: 72px;
+    padding-bottom: 118px;
     gap: 30px;
     align-items: center;
   }
@@ -1116,6 +1135,7 @@ ul.lista{
     max-width: 400px;
     height: 196px;
     margin: 0;
+    width: 100%; 
     
   }
 
@@ -1206,27 +1226,36 @@ ul.lista{
         gap: 16px;
     }
 
-    .iconsview h4{
+    .blockview h4{
       padding-top: 0px;
       padding-bottom: 18px;
       font-size: 20px;
+      margin: 0px 0px 0px 24px;
+      width: 288px;
     }
   
       .iconsview img{
         padding-bottom: 8px;
+        margin: 0;
       }
     
     .tit-viag h1 { 
       font-size: 32px; 
-      text-align: center; }
+      margin: 0 auto;
+
+    }
   
 
     .tit-viag p{
       font-size: 16px;
+      max-width: 100%;             
+      width: 288px; 
     }
 
-    .lista p{
+    .lista {
       font-size: 15px;
+      width: 300px; 
+      margin: 0 auto;
     }
    
    
@@ -1262,6 +1291,8 @@ ul.lista{
   .paragrafo p {
     font-size: 15px;
     padding: 8px 0px;
+    width: 300px;
+    margin: 0 auto;
   }
 
   
@@ -1276,6 +1307,8 @@ ul.lista{
     font-size: 32px;
     gap: 8px;
     padding: 24px 0px;
+    width: 300px;
+    margin: 0 auto;
   }
 
   .princ h3, .second h3 {
