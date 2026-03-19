@@ -814,14 +814,14 @@ ul.lista{
 
 
 @media screen and (max-width: 600px) {
- * { box-sizing: border-box;}
+ 
 
 
 
-    .navcontainer, .titolohome h1, .foto, .info h2, .grid, .content, .infotitle, .icons, .footercol, .gallery, .box, .halfcontent, .tit-viag, .iconsview, .titolohome, .cardgrande, .paragrafo, .fotogrande {
+    .navcontainer, .foto,  .grid, .info h2, .content, .icons, .footercol, .gallery, .box, .halfcontent, .tit-viag p, .iconsview,  .cardgrande, .paragrafo, .fotogrande {
     max-width: 100%; 
-    padding-left: 16px; 
-    padding-right: 16px;
+    padding-left: 20px; 
+    padding-right: 20px;
     margin: 0 auto ;
     box-sizing: border-box ; 
  }
