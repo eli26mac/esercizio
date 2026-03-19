@@ -11,6 +11,8 @@ body{
     margin: 0;
     font-optical-sizing: auto;
     font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 
@@ -389,13 +391,15 @@ h2 {
   padding-bottom: 16px;
   width: 100%;
 }
-
+b
 .block p {
   font-size: 15px;
   line-height: 1.5;
   margin: 0;
   width: 288px;
-  
+  padding: 0;
+  box-sizing: border-box;
+  display: block;
 }
 
 
