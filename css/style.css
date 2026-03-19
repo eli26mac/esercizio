@@ -817,10 +817,10 @@ ul.lista{
  * { box-sizing: border-box;}
 
   /* Questo crea un cuscinetto d'aria per TUTTO il contenuto del sito */
-  body {
+ header, footer {
     padding-left: 20px !important;
     padding-right: 20px !important;
-    overflow-x: hidden; /* Evita che il sito balli a destra e sinistra */
+    box-sizing: border-box;
   }
 
   /* Assicuriamoci che i contenitori non superino mai la larghezza dello schermo */
