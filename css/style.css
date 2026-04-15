@@ -189,7 +189,7 @@ section.foto{
     color: #ffffff;            
     text-decoration: none;     
     text-transform: uppercase;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 18px;
     letter-spacing: 1px;
     transition: all 0.3s ease; /* Rende il passaggio del mouse fluido */
@@ -201,7 +201,7 @@ section.foto{
 .btn-scopri:hover {
     background-color: transparent;
     color: #1ABECC;
-    font-weight: 500;
+    font-weight: 600;
     
 }
 
@@ -236,7 +236,8 @@ h2 {
 }
 
 .card p{
-  background-color: #FFF;
+    background-color: rgba(26, 190, 204, 0.1);
+
   font-size: 20px;
   font-weight: 400;
   margin: 0;
@@ -257,6 +258,9 @@ h2 {
 
 /*esperinze*/
 
+#hero-index:hover img {
+    opacity: 0.5; 
+}
 .content{
   display: grid;
   grid-template-columns: 1fr;
@@ -312,7 +316,7 @@ h2 {
 }
 
 
-#hero-index:hover img {
+.image-container:hover img {
     opacity: 0.5; 
 }
 
@@ -534,6 +538,7 @@ h2{
 
 .photo{
   width: 1072px;
+  background-color: rgba(26, 190, 204, 0.1);
   
 }
 
@@ -556,7 +561,7 @@ color: black;
   font-size: 24px;
   font-weight: 500;
   margin: 0;
-  padding: 16px 8px;
+  padding: 24px 16px;
   text-align: end;
    
   
@@ -565,6 +570,7 @@ color: black;
 .photo p:hover{
   text-decoration-line: underline;
   color: #1ABECC;
+  
 }
 
 
@@ -576,9 +582,15 @@ color: black;
   padding-bottom: 208px;
 }
 
+
+.container {
+  max-width: 280px;
+  background-color: rgba(26, 190, 204, 0.1);
+  
+}
+
 .container img{
-  height: 280px;
-  width: 280px;
+  height: 232px;
   object-fit: cover;
 }
 
@@ -594,9 +606,9 @@ color: black;
   font-size: 18px;
   font-weight: 500;
   margin: 0;
-  padding: 16px 8px;
+  padding: 16px 12px;
   text-align: end;
-  max-width: 480px;
+  
 }
 
 .container p:hover{
@@ -646,7 +658,19 @@ color: black;
   line-height: 1.5;
 }
 
+.image-co {
+    max-width: 400px;
+    width: 100%;
+    height: 160px;
+    
+}
 
+.image-co img {
+    
+    object-fit: cover;
+    
+    
+}
 
 
 
@@ -1149,7 +1173,8 @@ ul.lista{
   }
 
   .photo p{
-    font-size: 16px;
+    font-size: 15px;
+    padding: 16px 0px;
   }
 
 
@@ -1164,7 +1189,8 @@ ul.lista{
         width: 100%;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        margin: 0 auto;
+        
     }
 
     .container img {
@@ -1175,10 +1201,13 @@ ul.lista{
     }
 
     .container p {
-        font-size: 16px;
+        font-size: 14px;
         text-align: center; 
         width: 100%;
-        padding: 16px 0px;
+        padding: 12px 0px;
+        max-width: 200px;
+        margin: 0 auto;
+        
     }
 
 
@@ -1215,6 +1244,7 @@ ul.lista{
   .halfpiece p {
     text-align: left;
     width: 100%;
+    font-size: 15px;
  }
 
 
