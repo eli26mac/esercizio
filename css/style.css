@@ -192,7 +192,7 @@ section.foto{
     font-weight: 400;
     font-size: 18px;
     letter-spacing: 1px;
-    transition: all 0.3s ease; /* Rende il passaggio del mouse fluido */
+    transition: all 0.3s ease; 
     border: 2px solid #1ABECC;
     
 }
@@ -236,7 +236,7 @@ h2 {
 }
 
 .card p{
-    background-color: rgba(26, 190, 204, 0.1);
+    background-color: #ffffff;
 
   font-size: 20px;
   font-weight: 400;
@@ -299,7 +299,7 @@ h2 {
 }
 
 
-.image-container {
+.image-co {
     max-width: 400px;
     width: 100%;
     height: 160px;
@@ -308,7 +308,7 @@ h2 {
     position: relative;
 }
 
-.image-container img {
+.image-co img {
     
     object-fit: cover;
     transition: opacity 0.4s ease;
@@ -316,9 +316,10 @@ h2 {
 }
 
 
-.image-container:hover img {
+.image-co:hover img {
     opacity: 0.5; 
 }
+
 
 
 
@@ -366,12 +367,13 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 50px; 
+  gap: 48px; 
   margin: 0;
   padding-top: 32px;
   padding-bottom: 200px;
   max-width: 1100px;
   width: 100%;
+  
 }
 
 .block {
@@ -389,6 +391,7 @@ h2 {
   object-fit: contain; 
   padding-bottom: 24px;
   vertical-align: middle;
+
 
 }
 
@@ -537,9 +540,8 @@ h2{
 }
 
 .photo{
-  width: 1072px;
-  background-color: rgba(26, 190, 204, 0.1);
-  
+  width: 100%;
+  margin: 0 auto;
 }
 
 .photo a{
@@ -549,7 +551,7 @@ color: black;
 }
 
 .photo img{
-  width: 1072px;
+  width: 100%;
   height: 440px;
   object-fit: cover;
 }
@@ -561,7 +563,7 @@ color: black;
   font-size: 24px;
   font-weight: 500;
   margin: 0;
-  padding: 24px 16px;
+  padding: 16px 8px;
   text-align: end;
    
   
@@ -583,14 +585,10 @@ color: black;
 }
 
 
-.container {
-  max-width: 280px;
-  background-color: rgba(26, 190, 204, 0.1);
-  
-}
+
 
 .container img{
-  height: 232px;
+  height: 240px;
   object-fit: cover;
 }
 
@@ -606,7 +604,7 @@ color: black;
   font-size: 18px;
   font-weight: 500;
   margin: 0;
-  padding: 16px 12px;
+  padding: 12px 6px;
   text-align: end;
   
 }
@@ -658,17 +656,15 @@ color: black;
   line-height: 1.5;
 }
 
-.image-co {
+.image-container {
     max-width: 400px;
     width: 100%;
     height: 160px;
     
 }
 
-.image-co img {
-    
-    object-fit: cover;
-    
+.image-container img {
+     object-fit: cover;
     
 }
 
@@ -947,7 +943,7 @@ ul.lista{
   }
 
   section.foto{
-    padding-bottom: 48px;
+    padding-bottom: 40px;
   }
 
   .slider{
@@ -963,7 +959,8 @@ ul.lista{
   }
 
   .slides img{
-    width:100%;
+    width: 100%;
+    max-width: 500px;
     height:240px;
     object-fit: cover;
   }
@@ -1036,14 +1033,14 @@ ul.lista{
   margin: 0 auto;
   padding-top: 24px;
   padding-bottom: 48px;
-  gap: 40px;
+  gap: 30px;
 
  }
     
   .piece {
     flex-direction: column;
     align-items: center;
-    gap: 8px;
+    gap: 6px;
   }
 
   .piece p { 
@@ -1075,7 +1072,7 @@ ul.lista{
     flex-direction: column; 
     align-items: center;    
     gap: 0;
-    padding-top: 24px;
+    padding-top: 8px;
     padding-bottom: 72px;                  
      
   }
@@ -1161,7 +1158,7 @@ ul.lista{
   .photo{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    
     width: 100%;
   }
   .photo img { 
@@ -1174,7 +1171,8 @@ ul.lista{
 
   .photo p{
     font-size: 15px;
-    padding: 16px 0px;
+    padding: 12px 6px;
+    
   }
 
 
@@ -1197,6 +1195,7 @@ ul.lista{
         width: 100%; 
         height: 200px;
         max-width: 400px;
+       
         
     }
 
@@ -1205,7 +1204,7 @@ ul.lista{
         text-align: center; 
         width: 100%;
         padding: 12px 0px;
-        max-width: 200px;
+        max-width: px;
         margin: 0 auto;
         
     }
@@ -1215,12 +1214,21 @@ ul.lista{
 
 
 
+
+
+
+
+
     /* PAGINA ESPERIENZE */
+
+    
+
+    
 
     .halfcontent {
       display: grid;
       grid-template-columns: 1fr; 
-        gap: 40px; 
+        gap: 28px; 
         padding-top: 24px;
        padding-bottom: 72px; 
     }
@@ -1231,8 +1239,7 @@ ul.lista{
        width: 100%;
         display: flex;
         flex-direction: column;
-        align-items: left;
-        gap: 10px;
+        gap: 6px;
  }
 
  .halfcontent img {
@@ -1262,7 +1269,7 @@ ul.lista{
     .iconsview {
         grid-template-columns: 1fr; 
         padding-bottom: 72px;
-        gap: 16px;
+        gap: 20px;
         padding-top: 24px;
     }
 
